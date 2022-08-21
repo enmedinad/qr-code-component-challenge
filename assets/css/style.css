@@ -6,11 +6,16 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+  position: relative;
+}
+footer{
+ position: absolute;
+ bottom: 50px;
 }
 .disabled{
   display: none;
